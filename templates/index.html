@@ -1,0 +1,30 @@
+<html>
+    <head>
+ <title>Counter</title>
+    <style>
+        .container {
+            margin: auto;
+            width: 40%;
+            border: 3px solid black;
+            padding: 10px;
+        } 
+
+        .counter {
+            margin: auto;
+            padding: 50px;
+            position: relative;
+        }    
+
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="counter">
+                <h1>Counter</h1>
+                <p>{{session['counter']}}</p>
+                <a href="/add_two"><button>Why not add 2?</button></a>
+                <a href="/reset"><button>Reset Counter</button></a>
+            </div>
+        </div> 
+    </body>
+</html>
